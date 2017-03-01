@@ -1,0 +1,60 @@
+
+
+body {
+  margin: 0;
+}
+
+header {
+    width: 100%;;
+    height: 50px;
+    border: 1px dotted red;
+    position: fixed;
+}
+
+.Home-button {
+  position: absolute;
+}
+
+.Nav-buttons {
+  position: relative;
+  outline: solid 1px red;
+}
+
+.Nav-buttons li {
+  display: inline;
+  float: right;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+  border: 1px yellow dotted;
+}
+.hero-outer {
+  height: 519px;
+  width: 100%;
+  background-color: blue;
+  border-color: blue;
+}
+.hero-outer p {
+  color: white;
+}
+
+.workshop {
+  height: 140px;
+  width: 760px;
+  position: absolute;
+  left: 35%;
+  bottom: 500px;
+  border: dotted 1px red;
+}
+
+.sub {
+  text-align: center;
+}
+
+.works {
+  height: 375px;
+  width: 100%;
+  background-color: grey;
+  position: relative;
+  text-align: center;
+}
