@@ -1,60 +1,159 @@
-
-
 body {
-  margin: 0;
+    margin: 0;
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 100%;
 }
 
 header {
-    width: 100%;;
-    height: 50px;
-    border: 1px dotted red;
+    width: 100%;
+    height: 98px;
     position: fixed;
+    padding: 0 0;
+    z-index: 0;
+    border: 1px solid blue;
 }
 
 .Home-button {
-  position: absolute;
+    width: 155px;
+    height: 31px;
+    position: absolute;
+    display: block;
+    box-sizing: border-box;
+    z-index: +1;
 }
 
-.Nav-buttons {
-  position: relative;
-  outline: solid 1px red;
+ul .Nav-buttons {
+    position: relative;
+    justify-content: flex-end;
+    top: 50%;
+    border: 1px solid black;
+}
+
+.header-container {
+    position: absolute;
+    height: 38px;
+    width: 100%;
+    padding-right: 20%;
+    padding-left: 20%;
+    box-sizing: border-box;
+    top: 25%;
+    border: solid 1px black;
 }
 
 .Nav-buttons li {
-  display: inline;
-  float: right;
-  margin-left: 10px;
-  margin-right: 10px;
-  color: white;
-  border: 1px yellow dotted;
+    display: inline;
+    float: right;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 500px;
+    text-decoration: none;
+    letter-spacing: 1px;
 }
+
+
 .hero-outer {
   height: 519px;
   width: 100%;
-  background-color: blue;
-  border-color: blue;
+/*background-color: green;*/
+  border: solid 1px black;
+  position: relative;
 }
-.hero-outer p {
-  color: white;
+
+.hero-container {
+  position: relative;
+  height: 296px;
+  width: 760px;
+  margin: 0 auto;
+  padding-top: 80px;
+}
+
+.main {
+  position: relative;
 }
 
 .workshop {
-  height: 140px;
-  width: 760px;
-  position: absolute;
-  left: 35%;
-  bottom: 500px;
-  border: dotted 1px red;
+  margin: 0 auto;
 }
 
-.sub {
+.more {
+
+  width: auto;
+  background-color: blue;
   text-align: center;
 }
-
 .works {
-  height: 375px;
-  width: 100%;
+  height: 400px;
+  width: auto;
   background-color: grey;
-  position: relative;
   text-align: center;
+  text-overflow: ellipsis;
+}
+.works p {
+
+}
+
+.learn {
+  height: 400px;
+  width: auto;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0;
+    text-align: center;
+}
+.about {
+  height: 400px;
+  width: 300px;
+  text-align: center;
+}
+
+.about h3 {
+  position: absolute;
+  bottom: 100px;
+  text-align: center;
+  margin: 0 5%;
+}
+
+
+.help {
+  height: 400px;
+  width: auto;
+  background-color: green;
+  text-align: center;
+}
+
+.contact {
+  height: 150px;
+  width: auto;
+  background-color: red;
+}
+
+.companies {
+  height: 500px;
+  width: auto;
+  background-color: grey;
+}
+
+alt-footer {
+  height: 150px;
+  width: auto;
+  background-color: blue;
+}
+
+.location {
+  height: 400px;
+  width: auto;
+  background-color: yellow;
+}
+
+footer {
+  height: 150px;
+  width: auto;
+  background-color: black;
 }
