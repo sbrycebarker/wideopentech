@@ -108,7 +108,7 @@ ul .Nav-buttons {
     text-align: center;
 }
 .about {
-  height: 400px;
+  height: 300px;
   width: 300px;
   text-align: center;
 }
@@ -126,6 +126,20 @@ ul .Nav-buttons {
   width: auto;
   background-color: green;
   text-align: center;
+  position: relative;
+  margin: 0 auto;
+}
+
+.contactus {
+  height: 48px;
+  width: 165px;
+  background-color: #c8e23a;
+  text-decoration: none;
+  border-radius: 25px 25px 25px 25px;
+  justify-content: center;
+  display: block;
+  bottom: 0;
+  position: absolute;
 }
 
 .contact {
@@ -135,9 +149,37 @@ ul .Nav-buttons {
 }
 
 .companies {
-  height: 500px;
+  height: 844px;
   width: auto;
   background-color: grey;
+}
+
+.company {
+  height: 422px;
+  width: 630px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  float: left;
+}
+
+.logo {
+  height: inherit;
+  width: inherit;
+  background-color: rgba(19, 32, 35, 0.7);;
+  opacity: .5;
+  transition: opacity 500ms;
+    transition-property: opacity;
+    transition-duration: 500ms;
+    transition-timing-function: initial;
+    transition-delay: initial;
+}
+
+img {
+  height: inherit;
+  width: inherit;
+  position: absolute;
 }
 
 alt-footer {
